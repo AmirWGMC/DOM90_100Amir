@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dom</title>
+    <!-- CSS link doc -->
+    <link rel="stylesheet" href="domcss.css" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="nav nav-pills nav-fill">
+        <a class="nav-link active" aria-current="page" href="#">About Us</a>
+        <a class="nav-link" href="#">Facture</a>
+        <a class="nav-link" href="#">gift page</a>
+      </nav>
+    </header>
+    <hr />
+    <h1 class="enTete">
+        les couleurs stimulent nos emotions sans doute,</br> les materiaux et les
+        formes aussi
+    </h1>
+    <main>
+        
+    <div class="rowCard">        
+      <div class="card" id="0">
+        <p>Description :Abacus</p>
+        <img src="./abacus.jpg" alt="abacus" height="150px" width="150px" />
+            <div class="pm">
+                <button class="addBtn">(+)add</button>
+                <input type="text" name="nbrCmd" class="nbrcmd" value="0" />
+                <button class="removeBtn">(-)remove</button>
+            </div>
+            <label for="prix" aria-valuetext="25">prix : <span class="prixC1" >25</span> dt</label>
+            <label for="tota" id="totalC1">Total pour cet articles</label>
+            <input  for="totalC1" class="tota" name="toalPrix" id="" value=0>
+      </div>
+      <div class="card" id="1">
+        <p>Description :BalanceKit</p>
+        <img src="./balanceKit.jpg" alt="balance" height="150px" width="150px" />
+            <div class="pm">
+                <button class="addBtn">(+)add</button>
+                <input type="text" name="nbrCmd" class="nbrcmd" value="0" />
+                <button class="removeBtn">(-)remove</button>
+            </div>
+            <label for="prix" aria-valuetext="35">prix : <span class="prixC1" >35</span> dt</label>
+            <label for="tota" id="totalC1">Total pour cet articles</label>
+            <input  for="totalC1" class="tota" name="toalPrix" id="" value=0>
+      </div>
+      <div class="card" id="2">
+        <p>Description :bille</p>
+        <img src="./bille.jpg" alt="bille" height="150px" width="150px" />
+            <div class="pm">
+                <button class="addBtn">(+)add</button>
+                <input type="text" name="nbrCmd" class="nbrcmd" value="0" />
+                <button class="removeBtn">(-)remove</button>
+            </div>
+            <label for="prix" aria-valuetext="15">prix : <span class="prixC1" >15</span> dt</label>
+            <label for="tota" id="totalC1">Total pour cet articles</label>
+            <input  for="totalC1" class="tota" name="toalPrix" id="" value=0>
+      </div>
+      <div class="card" id="3">
+        <p>Description :bille</p>
+        <img src="./bille.jpg" alt="bille" height="150px" width="150px" />
+            <div class="pm">
+                <button class="addBtn">(+)add</button>
+                <input type="text" name="nbrCmd" class="nbrcmd" value="0" />
+                <button class="removeBtn">(-)remove</button>
+            </div>
+            <label for="prix" aria-valuetext="15">prix : <span class="prixC1" >15</span> dt</label>
+            <label for="tota" id="totalC1">Total pour cet articles</label>
+            <input  for="totalC1" class="tota" name="toalPrix" id="" value=0>
+      </div>
+      <div class="card" id="4">
+        <p>Description :bille</p>
+        <img src="./bille.jpg" alt="bille" height="150px" width="150px" />
+            <div class="pm">
+                <button class="addBtn">(+)add</button>
+                <input type="text" name="nbrCmd" class="nbrcmd" value="0" />
+                <button class="removeBtn">(-)remove</button>
+            </div>
+            <label for="prix" aria-valuetext="15">prix : <span class="prixC1" >15</span> dt</label>
+            <label for="tota" id="totalC1">Total pour cet articles</label>
+            <input  for="totalC1" class="tota" name="toalPrix" id="" value=0>
+      </div>
+    </div>
+    <div class="totfac">
+        <label for="">total achat</label>
+        <hr>
+        <input type="text" class="Facture" value="0">
+    </div>    
+    </main>
+    <footer>copyright 2021 _ goMyCode - Amir Souissi</footer>
+    <script src="./shop.js"></script>
+  </body>
+</html>
